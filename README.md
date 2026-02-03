@@ -86,8 +86,8 @@ A PyQt6-based desktop application for visually selecting and extracting segments
 ```
 audio-slicer/
 │
-├── main_v2.py          # Main application window and UI logic
-├── ui_v2_fixed.py      # Waveform viewer widget (core visualization)
+├── main.py          # Main application window and UI logic
+├── ui.py      # Waveform viewer widget (core visualization)
 ├── audio.py            # Audio processing utilities
 ├── clips/              # Output directory (auto-created)
 │   ├── audio_1.wav
@@ -99,14 +99,14 @@ audio-slicer/
 
 ### File Descriptions
 
-#### `main_v2.py`
+#### `main.py`
 - Application entry point
 - Main window setup
 - Button handlers
 - Player control
 - File I/O dialogs
 
-#### `ui_v2_fixed.py` (WaveformView)
+#### `ui.py` (WaveformView)
 - Waveform visualization
 - Zoom/pan logic
 - Selection handling
